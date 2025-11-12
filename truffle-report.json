@@ -1,0 +1,236 @@
+[
+  {
+    "rule": {
+      "id": "high-entropy",
+      "message": "High Entropy",
+      "severity": "MEDIUM"
+    },
+    "path": ".secrets.baseline",
+    "line": "154",
+    "secret": "2312c003ac97ec9386f0c225d208d6b34924270c",
+    "context": {
+      "154": "        \"hashed_secret\": \"2312c003ac97ec9386f0c225d208d6b34924270c\","
+    },
+    "id": "1e6ecb43-31db-3620-81cd-2c2adc61f16a",
+    "branch": null,
+    "message": null,
+    "author": null,
+    "commit": null,
+    "date": null
+  },
+  {
+    "rule": {
+      "id": "high-entropy",
+      "message": "High Entropy",
+      "severity": "MEDIUM"
+    },
+    "path": ".secrets.baseline",
+    "line": "164",
+    "secret": "4486931832c3bd2226c976c745cc90959456a3dc",
+    "context": {
+      "164": "        \"hashed_secret\": \"4486931832c3bd2226c976c745cc90959456a3dc\","
+    },
+    "id": "5508e133-8ac2-3390-9de5-ec9559fba7af",
+    "branch": null,
+    "message": null,
+    "author": null,
+    "commit": null,
+    "date": null
+  },
+  {
+    "rule": {
+      "id": "high-entropy",
+      "message": "High Entropy",
+      "severity": "MEDIUM"
+    },
+    "path": ".secrets.baseline",
+    "line": "180",
+    "secret": "2924a60002d4a94c5d73c5c10eb96bbba2fd2b0c",
+    "context": {
+      "180": "        \"hashed_secret\": \"2924a60002d4a94c5d73c5c10eb96bbba2fd2b0c\","
+    },
+    "id": "1daa108a-f93c-3712-a4a7-17bf866b777a",
+    "branch": null,
+    "message": null,
+    "author": null,
+    "commit": null,
+    "date": null
+  },
+  {
+    "rule": {
+      "id": "generic.secret",
+      "message": "Generic Secret",
+      "pattern": "[s|S][e|E][c|C][r|R][e|E][t|T].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
+      "severity": "LOW"
+    },
+    "path": ".secrets.baseline",
+    "line": "164",
+    "secret": "secret\": \"4486931832c3bd2226c976c745cc90959456a3dc\"",
+    "context": {
+      "164": "        \"hashed_secret\": \"4486931832c3bd2226c976c745cc90959456a3dc\","
+    },
+    "id": "4ff1bc23-0c5d-3370-8bef-efd6e114d194",
+    "branch": null,
+    "message": null,
+    "author": null,
+    "commit": null,
+    "date": null
+  },
+  {
+    "rule": {
+      "id": "high-entropy",
+      "message": "High Entropy",
+      "severity": "MEDIUM"
+    },
+    "path": ".secrets.baseline",
+    "line": "144",
+    "secret": "f3c543490caf3de5b72df28ea93de0c9a2043499",
+    "context": {
+      "144": "        \"hashed_secret\": \"f3c543490caf3de5b72df28ea93de0c9a2043499\","
+    },
+    "id": "684cd136-2a94-3b4d-9925-1d898cffd747",
+    "branch": null,
+    "message": null,
+    "author": null,
+    "commit": null,
+    "date": null
+  },
+  {
+    "rule": {
+      "id": "high-entropy",
+      "message": "High Entropy",
+      "severity": "MEDIUM"
+    },
+    "path": ".secrets.baseline",
+    "line": "172",
+    "secret": "4486931832c3bd2226c976c745cc90959456a3dc",
+    "context": {
+      "172": "        \"hashed_secret\": \"4486931832c3bd2226c976c745cc90959456a3dc\","
+    },
+    "id": "5508e133-8ac2-3390-9de5-ec9559fba7af",
+    "branch": null,
+    "message": null,
+    "author": null,
+    "commit": null,
+    "date": null
+  },
+  {
+    "rule": {
+      "id": "generic.secret",
+      "message": "Generic Secret",
+      "pattern": "[s|S][e|E][c|C][r|R][e|E][t|T].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
+      "severity": "LOW"
+    },
+    "path": ".secrets.baseline",
+    "line": "180",
+    "secret": "secret\": \"2924a60002d4a94c5d73c5c10eb96bbba2fd2b0c\"",
+    "context": {
+      "180": "        \"hashed_secret\": \"2924a60002d4a94c5d73c5c10eb96bbba2fd2b0c\","
+    },
+    "id": "e675e1a6-78e7-312e-8acf-d8b3d0e38c66",
+    "branch": null,
+    "message": null,
+    "author": null,
+    "commit": null,
+    "date": null
+  },
+  {
+    "rule": {
+      "id": "high-entropy",
+      "message": "High Entropy",
+      "severity": "MEDIUM"
+    },
+    "path": ".secrets.baseline",
+    "line": "134",
+    "secret": "bbc5def5ff61d2066dee44345c9cbd3f1446d78a",
+    "context": {
+      "134": "        \"hashed_secret\": \"bbc5def5ff61d2066dee44345c9cbd3f1446d78a\","
+    },
+    "id": "ad23193f-2d7c-3918-a0a2-adff55894509",
+    "branch": null,
+    "message": null,
+    "author": null,
+    "commit": null,
+    "date": null
+  },
+  {
+    "rule": {
+      "id": "generic.secret",
+      "message": "Generic Secret",
+      "pattern": "[s|S][e|E][c|C][r|R][e|E][t|T].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
+      "severity": "LOW"
+    },
+    "path": ".secrets.baseline",
+    "line": "144",
+    "secret": "secret\": \"f3c543490caf3de5b72df28ea93de0c9a2043499\"",
+    "context": {
+      "144": "        \"hashed_secret\": \"f3c543490caf3de5b72df28ea93de0c9a2043499\","
+    },
+    "id": "66f23141-2767-3c3a-a084-9111ebf0c513",
+    "branch": null,
+    "message": null,
+    "author": null,
+    "commit": null,
+    "date": null
+  },
+  {
+    "rule": {
+      "id": "generic.secret",
+      "message": "Generic Secret",
+      "pattern": "[s|S][e|E][c|C][r|R][e|E][t|T].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
+      "severity": "LOW"
+    },
+    "path": ".secrets.baseline",
+    "line": "134",
+    "secret": "secret\": \"bbc5def5ff61d2066dee44345c9cbd3f1446d78a\"",
+    "context": {
+      "134": "        \"hashed_secret\": \"bbc5def5ff61d2066dee44345c9cbd3f1446d78a\","
+    },
+    "id": "acb59bbd-0eba-3710-8928-d5c225ffc40b",
+    "branch": null,
+    "message": null,
+    "author": null,
+    "commit": null,
+    "date": null
+  },
+  {
+    "rule": {
+      "id": "generic.secret",
+      "message": "Generic Secret",
+      "pattern": "[s|S][e|E][c|C][r|R][e|E][t|T].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
+      "severity": "LOW"
+    },
+    "path": ".secrets.baseline",
+    "line": "154",
+    "secret": "secret\": \"2312c003ac97ec9386f0c225d208d6b34924270c\"",
+    "context": {
+      "154": "        \"hashed_secret\": \"2312c003ac97ec9386f0c225d208d6b34924270c\","
+    },
+    "id": "c9496142-fec1-3de0-8d06-9f5a4671e834",
+    "branch": null,
+    "message": null,
+    "author": null,
+    "commit": null,
+    "date": null
+  },
+  {
+    "rule": {
+      "id": "generic.secret",
+      "message": "Generic Secret",
+      "pattern": "[s|S][e|E][c|C][r|R][e|E][t|T].*['|\"][0-9a-zA-Z]{32,45}['|\"]",
+      "severity": "LOW"
+    },
+    "path": ".secrets.baseline",
+    "line": "172",
+    "secret": "secret\": \"4486931832c3bd2226c976c745cc90959456a3dc\"",
+    "context": {
+      "172": "        \"hashed_secret\": \"4486931832c3bd2226c976c745cc90959456a3dc\","
+    },
+    "id": "4ff1bc23-0c5d-3370-8bef-efd6e114d194",
+    "branch": null,
+    "message": null,
+    "author": null,
+    "commit": null,
+    "date": null
+  }
+]
