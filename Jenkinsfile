@@ -7,6 +7,7 @@ pipeline {
     }
 
     stages {
+
         stage('Clone Repository') {
             steps {
                 git url: 'https://github.com/eekpodo/secret-scan-demo.git', branch: 'main'
@@ -51,6 +52,7 @@ fi
 """
                     }
                 }
+
             }
         }
     }
