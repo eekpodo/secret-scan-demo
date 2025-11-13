@@ -19,7 +19,7 @@ pipeline {
                     steps {
                         sh """#!/bin/bash
                         set -e
-                        python3 -m venv ${DETECT_VENV}
+                        python -m venv ${DETECT_VENV}
                         source ${DETECT_VENV}/bin/activate
                         pip install --upgrade pip
                         pip install detect-secrets
@@ -37,7 +37,7 @@ pipeline {
                     steps {
                         sh """#!/bin/bash
                         set -e
-                        python3 -m venv ${TRUFFLE_VENV}
+                        python -m venv ${TRUFFLE_VENV}
                         source ${TRUFFLE_VENV}/bin/activate
                         pip install --upgrade pip
                         pip install trufflehog3 jq
